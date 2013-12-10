@@ -1,5 +1,0 @@
-{
-  "name": "somequery",
-  "rule": "SELECT 'chance' FROM DUAL",
-  "class": "edu.usf.RuleChains.SQLQuery"
-}
