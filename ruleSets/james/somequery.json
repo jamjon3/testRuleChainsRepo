@@ -1,0 +1,5 @@
+{
+  "name": "somequery",
+  "rule": "",
+  "class": "edu.usf.RuleChains.SQLQuery"
+}
