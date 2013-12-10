@@ -1,5 +1,5 @@
 {
   "name": "somerule",
-  "rule": "SELECT * FROM james",
+  "rule": "",
   "class": "edu.usf.RuleChains.SQLQuery"
 }
