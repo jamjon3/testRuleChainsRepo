@@ -1,0 +1,7 @@
+{
+  "name": "MyHander",
+  "chain": "somechain",
+  "inputReorder": "",
+  "outputReorder": "",
+  "method": "GET"
+}
