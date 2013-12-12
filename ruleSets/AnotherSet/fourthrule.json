@@ -1,5 +1,5 @@
 {
   "name": "fourthrule",
-  "rule": "",
+  "rule": "return [[\n\tjames: 'jones'\n]]",
   "class": "edu.usf.RuleChains.Groovy"
 }
