@@ -1,0 +1,12 @@
+{
+  "group": "DEFAULT",
+  "name": "somechain:1387393684588",
+  "triggers": 
+  [
+    "41 9 14 18 12 ? 2013"
+  ],
+  "chain": "somechain",
+  "input": 
+  [
+  ]
+}
