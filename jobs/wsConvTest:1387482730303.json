@@ -1,0 +1,12 @@
+{
+  "group": "DEFAULT",
+  "name": "wsConvTest:1387482730303",
+  "triggers": 
+  [
+    "50 52 14 19 12 ? 2013"
+  ],
+  "chain": "wsConvTest",
+  "input": 
+  [
+  ]
+}
