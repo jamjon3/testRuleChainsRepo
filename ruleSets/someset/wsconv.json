@@ -4,7 +4,7 @@
   "authType": "CAS",
   "parse": "JSON",
   "url": "",
-  "springSecurityBaseURL": "",
+  "springSecurityBaseURL": "https://dev.it.usf.edu/vip/services/ws_convert.php",
   "user": "",
   "password": "",
   "class": "edu.usf.RuleChains.DefinedService"
