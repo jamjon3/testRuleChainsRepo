@@ -1,0 +1,11 @@
+{
+  "name": "wsconv",
+  "method": "GET",
+  "authType": "NONE",
+  "parse": "TEXT",
+  "url": "",
+  "springSecurityBaseURL": "",
+  "user": "",
+  "password": "",
+  "class": "edu.usf.RuleChains.DefinedService"
+}
