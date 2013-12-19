@@ -1,7 +1,7 @@
 {
   "name": "wsconv",
   "method": "GET",
-  "authType": "NONE",
+  "authType": "CAS",
   "parse": "JSON",
   "url": "",
   "springSecurityBaseURL": "",
