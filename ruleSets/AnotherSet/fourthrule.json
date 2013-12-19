@@ -1,5 +1,5 @@
 {
   "name": "fourthrule",
-  "rule": "return [\n\t[\n\t\tjames: 'jones',\n\t\tisCool: true\n\t]\n]",
+  "rule": "return [\n\t[\n\t\tjames: 'jones',\n\t\tisCool: true,\n\t\tpassword: rcGlobals.mypassword\n\t]\n]",
   "class": "edu.usf.RuleChains.Groovy"
 }
