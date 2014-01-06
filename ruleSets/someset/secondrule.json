@@ -1,5 +1,0 @@
-{
-  "name": "secondrule",
-  "rule": "SELECT 'next rule' FROM DUAL",
-  "class": "edu.usf.RuleChains.SQLQuery"
-}
