@@ -4,7 +4,7 @@
   "inputReorder": "",
   "outputReorder": "",
   "executeEnum": "NORMAL",
-  "resultEnum": "NONE",
+  "resultEnum": "RECORDSET",
   "linkEnum": "NONE",
   "rule": "1rule",
   "class": "edu.usf.RuleChains.Link"
