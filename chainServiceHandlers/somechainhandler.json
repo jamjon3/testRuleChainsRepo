@@ -1,0 +1,7 @@
+{
+  "name": "somechainhandler",
+  "chain": "somechain",
+  "inputReorder": "",
+  "outputReorder": "",
+  "method": "GET"
+}
