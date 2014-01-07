@@ -1,5 +1,5 @@
 {
   "name": "1rule",
-  "rule": "",
+  "rule": "INSERT 'Fart' INTO Test",
   "class": "edu.usf.RuleChains.SQLQuery"
 }
