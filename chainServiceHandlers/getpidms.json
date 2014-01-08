@@ -1,0 +1,7 @@
+{
+  "name": "getpidms",
+  "chain": "somechain",
+  "inputReorder": "",
+  "outputReorder": "",
+  "method": "GET"
+}
