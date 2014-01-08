@@ -1,5 +1,5 @@
 {
-  "name": "getpidms",
+  "name": "getpidmsfromoasis",
   "rule": "",
   "class": "edu.usf.RuleChains.SQLQuery"
 }
