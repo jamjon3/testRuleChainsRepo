@@ -1,0 +1,5 @@
+{
+  "name": "getpidms",
+  "rule": "",
+  "class": "edu.usf.RuleChains.SQLQuery"
+}
