@@ -1,9 +1,9 @@
 {
   "name": "ws_conv",
   "method": "GET",
-  "authType": "NONE",
+  "authType": "CAS",
   "parse": "TEXT",
-  "url": "",
+  "url": "https://dev.it.usf.edu/vip/services/us_convert.php",
   "springSecurityBaseURL": "",
   "user": "",
   "password": "",
