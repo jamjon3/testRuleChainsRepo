@@ -6,6 +6,6 @@
   "url": "https://dev.it.usf.edu/vip/services/us_convert.php",
   "springSecurityBaseURL": "",
   "user": "${cas.serviceUser}",
-  "password": "",
+  "password": "${cas.servicePassword}",
   "class": "edu.usf.RuleChains.DefinedService"
 }
