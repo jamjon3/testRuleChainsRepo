@@ -5,7 +5,7 @@
   "parse": "TEXT",
   "url": "https://dev.it.usf.edu/vip/services/us_convert.php",
   "springSecurityBaseURL": "",
-  "user": "",
+  "user": "${cas.serviceUser}",
   "password": "",
   "class": "edu.usf.RuleChains.DefinedService"
 }
