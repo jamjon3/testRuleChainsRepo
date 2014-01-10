@@ -3,7 +3,7 @@
   "method": "GET",
   "authType": "CAS",
   "parse": "TEXT",
-  "url": "https://dev.it.usf.edu/vip/services/us_convert.php",
+  "url": "https://dev.it.usf.edu/vip/services/ws_convert.php",
   "springSecurityBaseURL": "",
   "user": "${cas.serviceUser}",
   "password": "${cas.servicePassword}",
