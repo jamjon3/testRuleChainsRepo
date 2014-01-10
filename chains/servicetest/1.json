@@ -4,7 +4,7 @@
   "inputReorder": "return [\n\tsubmit_type: 'netid',\n\treturn_type: 'usfid',\n\t'return': 'json',\n\t'value': 'chance'\n]",
   "outputReorder": "",
   "executeEnum": "EXECUTE_USING_ROW",
-  "resultEnum": "NONE",
+  "resultEnum": "ROW",
   "linkEnum": "NONE",
   "rule": "ws_conv",
   "class": "edu.usf.RuleChains.Link"
