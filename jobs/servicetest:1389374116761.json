@@ -1,0 +1,12 @@
+{
+  "group": "DEFAULT",
+  "name": "servicetest:1389374116761",
+  "triggers": 
+  [
+    "1 16 12 10 1 ? 2014"
+  ],
+  "chain": "servicetest",
+  "input": 
+  [
+  ]
+}
