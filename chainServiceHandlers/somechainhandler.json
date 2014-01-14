@@ -1,6 +1,6 @@
 {
   "name": "somechainhandler",
-  "chain": "somechain",
+  "chain": "servicetest",
   "inputReorder": "",
   "outputReorder": "",
   "method": "GET"
