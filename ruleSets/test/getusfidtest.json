@@ -1,5 +1,5 @@
 {
   "name": "getusfidtest",
-  "rule": "",
+  "rule": "SELECT ${usfid} AS usfid FROM DUAL",
   "class": "edu.usf.RuleChains.SQLQuery"
 }
