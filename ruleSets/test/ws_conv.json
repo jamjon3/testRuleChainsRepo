@@ -2,7 +2,7 @@
   "name": "ws_conv",
   "method": "GET",
   "authType": "CAS",
-  "parse": "TEXT",
+  "parse": "JSON",
   "url": "https://dev.it.usf.edu/vip/services/ws_convert.php",
   "springSecurityBaseURL": "",
   "user": "${cas.serviceUser}",
