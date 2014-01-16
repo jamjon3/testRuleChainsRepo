@@ -1,0 +1,11 @@
+{
+  "sequenceNumber": 4,
+  "sourceName": "baggageclaim",
+  "inputReorder": "",
+  "outputReorder": "",
+  "executeEnum": "NORMAL",
+  "resultEnum": "NONE",
+  "linkEnum": "NONE",
+  "rule": "somerule",
+  "class": "edu.usf.RuleChains.Link"
+}
