@@ -6,6 +6,6 @@
   "executeEnum": "NORMAL",
   "resultEnum": "NONE",
   "linkEnum": "NONE",
-  "rule": "somerule",
+  "rule": "getusfidtest",
   "class": "edu.usf.RuleChains.Link"
 }
