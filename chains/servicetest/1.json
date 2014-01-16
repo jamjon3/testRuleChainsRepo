@@ -1,7 +1,7 @@
 {
   "sequenceNumber": 1,
   "sourceName": "baggageclaim",
-  "inputReorder": "return [\n\tsubmit_type: 'netid',\n\treturn_type: 'usfid',\n\t'return': 'json',\n\t'value': 'chance'\n]",
+  "inputReorder": "return [\n\tsubmit_type: 'netid',\n\treturn_type: 'usfid',\n\t'return': 'json',\n\t'value': ('netid' in row)?row.netid:'chance'\n]",
   "outputReorder": "println row\nreturn [\n\tusfid: row.usfid\n]",
   "executeEnum": "EXECUTE_USING_ROW",
   "resultEnum": "ROW",
