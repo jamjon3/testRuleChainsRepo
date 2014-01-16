@@ -1,11 +1,11 @@
 {
   "sequenceNumber": 2,
   "sourceName": "baggageclaim",
-  "inputReorder": "",
-  "outputReorder": "",
-  "executeEnum": "NORMAL",
-  "resultEnum": "NONE",
+  "inputReorder": "return [\n\tsubmit_type: 'netid',\n\treturn_type: 'usfid',\n\t'return': 'json',\n\t'value': 'chance'\n]",
+  "outputReorder": "println row\nreturn [\n\tusfid: row.usfid\n]",
+  "executeEnum": "EXECUTE_USING_ROW",
+  "resultEnum": "ROW",
   "linkEnum": "NONE",
-  "rule": "getusfidtest",
+  "rule": "ws_conv",
   "class": "edu.usf.RuleChains.Link"
 }
