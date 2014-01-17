@@ -2,6 +2,6 @@
   "name": "somechainhandler",
   "chain": "servicetest",
   "inputReorder": "",
-  "outputReorder": "",
+  "outputReorder": "if(rows) {\n\treturn rows.first()\n}\nreturn [ error: 'The result was empty!' ]",
   "method": "GET"
 }
