@@ -3,7 +3,7 @@
   "sourceName": "baggageclaim",
   "inputReorder": "return [\n\tsubmit_type: 'netid',\n\treturn_type: 'usfid',\n\t'return': 'json',\n\t'value': ('netid' in row)?row.netid:'chance'\n]",
   "outputReorder": "println row\nreturn [\n\tusfid: row.usfid\n]",
-  "executeEnum": "EXECUTE_USING_ROW",
+  "executeEnum": "NORMAL",
   "resultEnum": "ROW",
   "linkEnum": "NONE",
   "rule": "ws_conv",
