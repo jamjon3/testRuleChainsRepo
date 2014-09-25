@@ -4,7 +4,7 @@
   "inputReorder": "",
   "outputReorder": "",
   "executeEnum": "NORMAL",
-  "resultEnum": "NONE",
+  "resultEnum": "ROW",
   "linkEnum": "NONE",
   "rule": "somerule",
   "class": "edu.usf.RuleChains.Link"
