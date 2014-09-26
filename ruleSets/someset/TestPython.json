@@ -1,5 +1,5 @@
 {
   "name": "TestPython",
-  "rule": "stmt = sqls.get('baggageclaim').createStatement()\nrs = stmt.executeQuery(\"select test from testtable\")\n\ntestValues = { 'test' : [] }\nwhile rs.next():\n  emp[rs.getString(4)] = {\n       'name': \"%s, %s\" % (rs.getString(3), rs.getString(2)),  \n       'email': rs.getString(4),\n       'salary': rs.getInt(8)\n  }\n  print \"%s, %s (%s)\" % (rs.getString(3), rs.getString(2), rs.getString(4))\n\nrs.close()\nstmt.close()\n\n[{'apple': 0.40, 'banana': 0.50, 'input': row.get('fart') }]",
+  "rule": "stmt = sqls.get('baggageclaim').createStatement()\nrs = stmt.executeQuery(\"select test from testtable\")\n\ntestValues = []\nwhile rs.next():\n  testValues.append(rs.getString(0))\n  emp[rs.getString(4)] = {\n       'name': \"%s, %s\" % (rs.getString(3), rs.getString(2)),  \n       'email': rs.getString(4),\n       'salary': rs.getInt(8)\n  }\n  print \"%s\" % (rs.getString(0))\n\nrs.close()\nstmt.close()\n\n[{'apple': 0.40, 'banana': 0.50, 'input': row.get('fart'),'testList': testValues }]",
   "class": "edu.usf.RuleChains.Python"
 }
