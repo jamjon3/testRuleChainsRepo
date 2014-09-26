@@ -6,6 +6,6 @@
   "executeEnum": "NORMAL",
   "resultEnum": "NONE",
   "linkEnum": "NONE",
-  "rule": "TestPythonScript",
+  "rule": "TestPython",
   "class": "edu.usf.RuleChains.Link"
 }
