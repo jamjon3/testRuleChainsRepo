@@ -3,7 +3,7 @@
   "sourceName": "baggageclaim",
   "inputReorder": "",
   "outputReorder": "",
-  "executeEnum": "NORMAL",
+  "executeEnum": "EXECUTE_USING_ROW",
   "resultEnum": "ROW",
   "linkEnum": "NONE",
   "rule": "TestPython",
