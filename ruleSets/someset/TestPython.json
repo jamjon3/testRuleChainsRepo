@@ -1,5 +1,5 @@
 {
   "name": "TestPython",
-  "rule": "def temp():\n  global sqls\n  conn = sqls.get('baggageclaim')  \n  stmt = conn.createStatement()\n  rs = stmt.executeQuery(\"select test from testtable\")\n  testValues = []\n  while rs.next():\n    testValues.append(rs.getString(0))\n    print \"%s\" % (rs.getString(0))\n  rs.close()\n  stmt.close()\n  return [{'apple': 0.40, 'banana': 0.50, 'input': row.get('fart'),'testList': testValues }]\n\ntemp()",
+  "rule": "def temp():\n  global sqls\n  # conn = sqls.get('baggageclaim')    \n  # stmt = conn.createStatement()\n  stmt = sql.createStatement()\n  rs = stmt.executeQuery(\"select test from testtable\")\n  testValues = []\n  while rs.next():\n    testValues.append(rs.getString(0))\n    print \"%s\" % (rs.getString(0))\n  rs.close()\n  stmt.close()\n  return [{'apple': 0.40, 'banana': 0.50, 'input': row.get('fart'),'testList': testValues }]\n\ntemp()",
   "class": "edu.usf.RuleChains.Python"
 }
