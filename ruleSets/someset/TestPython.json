@@ -1,5 +1,5 @@
 {
   "name": "TestPython",
-  "rule": "stmt = sqls.get('baggageclaim').createStatement()\n\n[{'apple': 0.40, 'banana': 0.50, 'input': row.get('fart') }]",
+  "rule": "stmt = sqls.get('baggageclaim').createStatement()\n\n\n\n[{'apple': 0.40, 'banana': 0.50, 'input': row.get('fart') }]",
   "class": "edu.usf.RuleChains.Python"
 }
