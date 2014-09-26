@@ -1,5 +1,5 @@
 {
   "name": "TestPython",
-  "rule": "return [{'apple': 0.40, 'banana': 0.50}]",
+  "rule": "rows = [{'apple': 0.40, 'banana': 0.50}]",
   "class": "edu.usf.RuleChains.Python"
 }
