@@ -1,0 +1,5 @@
+{
+  "name": "AnotherPython",
+  "rule": "\n# Output must be saved to this variable\nout = []\n",
+  "class": "edu.usf.RuleChains.Python"
+}
