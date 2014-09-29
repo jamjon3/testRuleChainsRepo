@@ -1,0 +1,5 @@
+{
+  "name": "AnotherPython",
+  "rule": "out = []",
+  "class": "edu.usf.RuleChains.Python"
+}
