@@ -1,5 +1,5 @@
 {
   "name": "somegroovy",
-  "rule": "",
+  "rule": "return [[row: row]]",
   "class": "edu.usf.RuleChains.Groovy"
 }
