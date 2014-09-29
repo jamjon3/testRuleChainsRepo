@@ -1,0 +1,11 @@
+{
+  "sequenceNumber": 3,
+  "sourceName": "baggageclaim",
+  "inputReorder": "",
+  "outputReorder": "",
+  "executeEnum": "NORMAL",
+  "resultEnum": "NONE",
+  "linkEnum": "NONE",
+  "rule": "somegroovy",
+  "class": "edu.usf.RuleChains.Link"
+}
