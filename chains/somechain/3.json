@@ -4,7 +4,7 @@
   "inputReorder": "",
   "outputReorder": "",
   "executeEnum": "EXECUTE_USING_ROW",
-  "resultEnum": "NONE",
+  "resultEnum": "ROW",
   "linkEnum": "NONE",
   "rule": "somegroovy",
   "class": "edu.usf.RuleChains.Link"
