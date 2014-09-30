@@ -1,5 +1,5 @@
 {
   "name": "somegroovy",
-  "rule": "\"hello, world, how, are, you\".eachCsvLine { tokens ->\n\t//only one line in this case and tokens.length == 5\n\tprintln tokens.length\n}\ntestFunction()\n\nreturn [[row: row]]",
+  "rule": "\"hello, world, how, are, you\".eachCsvLine { tokens ->\n\t//only one line in this case and tokens.length == 5\n\tprintln tokens.length\n}\nprintln testFunction() as JSON\n\nreturn [[row: row]]",
   "class": "edu.usf.RuleChains.Groovy"
 }
