@@ -1,0 +1,5 @@
+{
+  "name": "MailerRule",
+  "rule": "",
+  "class": "edu.usf.RuleChains.Groovy"
+}
