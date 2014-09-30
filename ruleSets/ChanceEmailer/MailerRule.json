@@ -1,5 +1,5 @@
 {
   "name": "MailerRule",
-  "rule": "def templateEngine = new groovy.text.GStringTemplateEngine()\n\ndef mapping = ['ccfield':'ccfields', 'bccfield':'bccfields', 'fromAddr': 'sender', 'recipient': 'recipient', 'subject': 'subject' ]\ndef config = (ConfigObject) row.inject( ['recipientHdr': 'email', 'mail.smtp.host': 'bumblebee.forest.usf.edu'] ) { map, k, v -> \n\tif(v.key in mapping.keySet()) {\n\t\tmap[ mapping[ k ] ?: k ] = v ; \n\t}\n\treturn map \n}\n\t\ndef emailText = templateEngine.createTemplate(row['templateText']).make(row['templateData']).toString()\nsendEmail(config,emailText)",
+  "rule": "def templateEngine = new GStringTemplateEngine()\n\ndef mapping = ['ccfield':'ccfields', 'bccfield':'bccfields', 'fromAddr': 'sender', 'recipient': 'recipient', 'subject': 'subject' ]\ndef config = (ConfigObject) row.inject( ['recipientHdr': 'email', 'mail.smtp.host': 'bumblebee.forest.usf.edu'] ) { map, k, v -> \n\tif(v.key in mapping.keySet()) {\n\t\tmap[ mapping[ k ] ?: k ] = v ; \n\t}\n\treturn map \n}\n\t\ndef emailText = templateEngine.createTemplate(row['templateText']).make(row['templateData']).toString()\nsendEmail(config,emailText)",
   "class": "edu.usf.RuleChains.Groovy"
 }
