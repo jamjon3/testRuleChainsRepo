@@ -1,0 +1,15 @@
+{
+  "group": "DEFAULT",
+  "name": "somechain:1412966422923",
+  "triggers": 
+  [
+    "24 25 12 10 10 ? 2016"
+  ],
+  "chain": "somechain",
+  "input": 
+  [
+    {
+    }
+  ],
+  "emailLog": "chance@mail.usf.edu"
+}
