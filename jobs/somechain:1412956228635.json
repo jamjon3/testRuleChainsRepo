@@ -8,5 +8,6 @@
   "chain": "somechain",
   "input": 
   [
-  ]
+  ],
+  "emailLog": "james@mail.usf.edu"
 }
