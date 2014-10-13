@@ -1,0 +1,15 @@
+{
+  "group": "DEFAULT",
+  "name": "servicetest:1413227233295",
+  "triggers": 
+  [
+    "28 58 13 13 10 ? 2018"
+  ],
+  "chain": "servicetest",
+  "input": 
+  [
+    {
+    }
+  ],
+  "emailLog": "james@mail.usf.edu"
+}
