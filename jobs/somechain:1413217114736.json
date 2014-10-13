@@ -3,7 +3,6 @@
   "name": "somechain:1413217114736",
   "triggers": 
   [
-    "24 25 12 10 10 ? 2018",
     "24 25 12 10 10 ? 2016"
   ],
   "chain": "somechain",
