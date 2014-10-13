@@ -1,0 +1,15 @@
+{
+  "group": "DEFAULT",
+  "name": "somechain:1413227291285",
+  "triggers": 
+  [
+    "28 58 13 13 10 ? 2016"
+  ],
+  "chain": "somechain",
+  "input": 
+  [
+    {
+    }
+  ],
+  "emailLog": "epierce@mail.usf.edu"
+}
